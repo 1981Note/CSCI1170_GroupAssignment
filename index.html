@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>GA2-IronMan11</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/main.js"></script>
+
+    </head>
+
+    <body>
+        <h1>
+            Personality Test
+        </h1>
+
+        <div>
+            <h2>Introduction</h2>
+            <p>Welcome to this magical page. According to your answers to these simple questions, it can analyze your character MOST CORRECTLY.</p>
+            <p><strong>BACKGROUND: </strong>Imagine you are in a small island for holiday.</p>
+       </div>
+
+        <div>
+            <p><strong>1. What is your name?</strong></p>
+            <p>My name is <input type="text" id="name" size="15"/></p>
+        </div>
+
+        <!--
+            1. Helps about how to make a fill in blank question from youtube.com
+                how to use "Input" to indicate options and fill-in-the-blanks
+                <input type="text" id="" size="">
+                Date accessed: 14 Oct. 2020
+                URL: https://www.youtube.com/watch?v=1SxMWhqYQ4k
+
+        -->
+
+        <div>
+            <p><strong>2. Are you male or female?</strong></p>
+            <p><input type="radio" name="question2" value="Miss." >Miss.</p>
+            <p id="female"> </p>
+            <p><input type="radio" name="question2" value="Mr." >Mr.</p>
+            <p id="male"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>3. On the day before the flight, do you want to check plan for the next day in the morning or afternoon?</strong></p>
+            <p><input type="radio" name="question3" value="you prefer to check plan in the morning.">you prefer to check plan in the morning.</p>
+            <p id="morning"> </p>
+            <p><input type="radio" name="question3" value="you prefer to check plan in the afternoon.">you prefer to check plan in the afternoon.</p>
+            <p id="afternoon"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>4. Do you live in a house or a flat?</strong></p>
+            <p><input type="radio" name="question4" value="flat.">flat.</p>
+            <p id="flat"> </p>
+            <p><input type="radio" name="question4" value="house.">house.</p>
+            <p id="house"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>5. How fast when you walk into the hotel?</strong></p>
+            <p><input type="radio" name="question5" value="fast.">fast.</p>
+            <p id="fast"> </p>
+            <p><input type="radio" name="question5" value="slow.">slow.</p>
+            <p id="slow"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>6. How do you behave when the waiter talk with you?</strong></p>
+            <p><input type="radio" name="question6" value="nervous and want to stop the talk as soon as possible.">nervous and want to stop the talk as soon as possible.</p>
+            <p id="nervous"> </p>
+            <p><input type="radio" name="question6" value="relax and want to talk more about your holiday.">relax and want to talk more about your holiday.</p>
+            <p id="relax"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>7. Which one do you prefer to eat as breakfast?</strong></p>
+            <p><input type="radio" name="question7" value="bread.">bread.</p>
+            <p id="bread"> </p>
+            <p><input type="radio" name="question7" value="oatmeal.">oatmeal.</p>
+            <p id="oatmeal"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>8. After get into your room, what music do you want play for enjoy the sea on the balcony?</strong></p>
+            <p><input type="radio" name="question8" value="piano music.">piano music.</p>
+            <p id="piano"> </p>
+            <p><input type="radio" name="question8" value="violin music.">violin music.</p>
+            <p id="violin"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>9.You feel hungry because of long-time flight, which restaurant do you want to go?</strong></p>
+            <p><input type="radio" name="question9" value="the restaurant in the hotel.">the restaurant in the hotel.</p>
+            <p id="hotel"> </p>
+            <p><input type="radio" name="question9" value="the local restaurant with high rate on the map.">the local restaurant with high rate on the map.</p>
+            <p id="local"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>10. After finish the lunch, where do you want to go as the start of your holiday?</strong></p>
+            <p><input type="radio" name="question10" value="sea.">sea.</p>
+            <p id="sea"> </p>
+            <p><input type="radio" name="question10" value="local performances.">local performances.</p>
+            <p id="performances"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>11. When you get there, you find a man seems like your friend, but not sure. You choose to...</strong></p>
+            <p><input type="radio" name="question11" value="say hello to him.">say hello to him.</p>
+            <p id="hello"> </p>
+            <p><input type="radio" name="question11" value="ignore him.">ignore him.</p>
+            <p id="ignore"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>12. Before you decide, that man comes to you. He also notices you, luckily, he is your friend. You choose...</strong></p>
+            <p><input type="radio" name="question12" value="ask what's his plan, decide to enjoy your holiday with he.">ask what's his plan, decide to enjoy your holiday with him.</p>
+            <p id="he"> </p>
+            <p><input type="radio" name="question12" value="enjoy your holiday on you own.">enjoy your holiday on you own.</p>
+            <p id="own"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>13. He gets there with someone else. He simply stops your talk, and then leave to find his accompany. You feel..</strong></p>
+            <p><input type="radio" name="question13" value="regret.">regret.</p>
+            <p id="regret"> </p>
+            <p><input type="radio" name="question13" value="nothing.">nothing.</p>
+            <p id="nothing"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>14. With time goes, it's time for the dinner, you feel some hungry.  However, you still want to stay here for enjoy. You decide...</strong></p>
+            <p><input type="radio" name="question14" value="have dinner later.">have dinner later.</p>
+            <p id="later"> </p>
+            <p><input type="radio" name="question14" value="leave and have dinner immediately.">leave and have dinner immediately.</p>
+            <p id="immediately"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>15. You find a nearest restaurant to solve your dinner. It's about 7 p.m. now. What do you decide to do next?</strong></p>
+            <p><input type="radio" name="question15" value="you feel tired, back to the hotel for rest.">you feel tired, back to the hotel for rest.</p>
+            <p id="rest"> </p>
+            <p><input type="radio" name="question15" value="you ask locals if there is any interesting night life event on the island.">you ask locals if there is any interesting night life event on the island.</p>
+            <p id="event"> </p>
+
+        </div>
+
+        <div>
+            <p><strong>16. After back to the hotel, you find that the hotel offer the free nightcap, which wine do you choose?</strong></p>
+            <p><input type="radio" name="question16" value="red wine.">red wine.</p>
+            <p id="red"> </p>
+            <p><input type="radio" name="question16" value="white wine.">white wine.</p>
+            <p id="white"> </p>
+
+        </div>
+
+
+        <!--
+            2. Helps about how to creating a multiple choice option in javascript from stackoverflow.com
+                Date accessed: 14 Oct. 2020
+                URL: https://stackoverflow.com/questions/34084048/creating-a-multiple-choice-option-in-javascript
+
+            3. Helps about how to make a multiple choice quiz from youtube.com
+                how to use "Input" to indicate options and fill-in-the-blanks
+                <input type"radio" name="" value="">
+                Date accessed: 14 Oct. 2020
+                URL: https://www.youtube.com/watch?v=H1DUszPZakQ&t=579s
+        -->
+        <br>
+
+        <div>
+            <p><strong>Congratulation! You finish the test!</strong></p>
+            <p><strong>Here is your character.</strong></p>
+            <p id="answer"><strong>Do you want to see your answer?</strong></p>
+            <button type="button" onclick="Preview()"><strong>PREVIEW IT</strong></button>
+            <button type="button" onclick="Botton()"><strong>CLICK HERE TO GET YOUR RESULT</strong></button>
+            <button type="button" onclick="Again()"><strong>DO IT AGAIN</strong></button>
+        </div>
+
+        <!--
+            4. Helps about how to use innerhtml and onclick
+                Date accessed: 14 Oct. 2020
+                URL: https://www.runoob.com/try/try.php?filename=tryjs_whereto_head
+        -->
+
+        <!--
+            ### Yiyun Gong's Part (B00831531)
+
+            What features you implemented:	
+            I design the text part(questions & background) of the whole page, and devide it into some parts like questions parts, result parts, background parts.
+
+            What do you learned:
+            During the group communication, I learned that devide work into some parts can really make work more easier. Everyone can decide to do the part that they are good at, 
+            this decision makes member's abilities be used in the most correct way with the highest quality. 
+
+            ### Yinfan Shao's part (B00839064)
+
+            What features you implemented:
+            Write the code of html and provide main idea of our group assignment
+
+            What do you learned:
+            When we meet some problems we can discuss and get help from my teammates, it makes me to do assignment easier. On the other hand, my teammates are all very conscientious and do their work effciently.
+        -->
+    </body>
+
+</html>

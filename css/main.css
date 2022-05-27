@@ -1,0 +1,105 @@
+/*
+This css parts (body, h1, and div tags) is done by Eunbin (David) Cha / B00811825
+
+What features you implemented:
+The main features that I have implemented to design a personality test web page is using a gradient for the background.
+I have created text boxes for each division section and implement the linear-gradient for each boxes.
+
+What you have learned from this group development exercise:
+From this group exercise, I have learned how to use basic concepts of html, css, and javascript to create a personality
+game web page. By diving the work throughout the communication, we could effectively do the time management for this
+group assignment. I have learned that learning in group and do the practical exercise with group will make my knowledge
+more understandable and accessible.
+
+*/
+
+/*
+For the overall body of the webpage, I have set the font-family and background color for it.
+
+The concept of linear-gradient is learned from: https://www.w3schools.com/css/css3_gradients.asp
+Date concept learned: 10-24-2020
+Nature of help received: how to use the linear gradient in the css from the top background to bottom background
+
+The linear-graident code is received from: https://cssgradient.io/
+Date receied from: 10-24-2020
+Nature of help receied: received the following codes for the color that I wanted to use for the background gradient
+In this webpage, I can play around the color-pick and it automatically generates the linear-gradient codes with rgb value.
+
+*/
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(149,255,143,1) 0%, rgba(32,212,206,1) 100%);
+  
+  }
+  
+  /*
+  For the h1 selector, I have used few properties to display "Personality Test" text.
+  I have set the text align to center, with proper font size and weight with all uppercase letters.
+  
+  
+  The cocnept of box-shadow is learned from: https://www.w3schools.com/css/css3_shadows.asp
+  Date receied from: 10-24-2020
+  Nature of help received: how to use box-shadow property and text-shaw property to make it more visible
+  */
+  h1 {
+  
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 8px #888888;
+    padding: 20px;
+    width: 40%;
+    margin: 5rem auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(170,216,252,1) 0%, rgba(32,212,206,1) 100%);
+  
+  }
+  
+  /*
+  For all the other text elements are organized with dig tag in the html. For this selector,
+  I have used the similar properties compare to the heading selector. For the flex-direction,
+  I have set to the column attribute to make a one colum layout
+  
+  The concept of flex-direction is learned from: https://www.w3schools.com/cssref/css3_pr_flex-direction.asp
+  Date concept learned from: 10-24-2020
+  Nature of concept learned: how to create a different layout and make the item to be more flexible length
+  */
+  div {
+  
+    box-shadow: 10px 10px 8px #888888;
+    text-shadow: 1px 1px white;
+    font-size: 16px;
+    padding: 5rem;
+    width: 40%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(170,216,252,1) 0%, rgba(32,212,206,1) 100%);
+  
+  }
+  
+  /* end of Eunbin (David) Cha's part */
+  
+
+  /*
+  For all the pictures which are put in the html.For this seclector, I have used all the drawn pictures from Siyuan(my teammate)'s friend to 
+  to decorate with the css part. I have float the pictures into the right spots.I also added all the pictures by adding more details
+  in the html part and make the pictures centered and flipped for a fun activity. Moreover, I also set the width of the pictures to
+  be a little bit smaller.
+  */
+  img {
+      width: 250px;
+      display:block;
+      margin-left: auto;
+      margin-right:auto;
+      filter:grayscale(50%);  
+
+  }
+  img:hover{
+      transform: scalex(-1);
+  }
+  /* end of Le Hai Son(Jeremy Lee)'s part */
